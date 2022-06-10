@@ -1,41 +1,42 @@
 body{
-    font-family: serif;
+  font-family: serif;
 }
 main{
-    width: 42em;
-    margin: 0 auto;
+  width: 42em;
+  margin: 0 auto;
 }
 
 section{
-    text-align: center;
-    margin: 5em;
+  text-align: center;
+  margin: 5em;
 }
 
 section img{
-    width: 100px;
-    border-radius: 50%;
+  width: 100px;
+  border-radius: 50%;
 }
 
 #preferred-name, #user-name{
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 article{
-    margin: 5em 0;
-    text-align: center;
+  margin: 5em 0;
+  text-align: center;
 }
 
 .summary{
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 a{
-    color: cadetblue;
+  color: cadetblue;
 }
 
 .toots_image {
-    width: 50%;
-    height: auto;
-    border-radius: 5px;
-    display: block;
-    margin: 3em auto;
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin: 3em auto;
+}
