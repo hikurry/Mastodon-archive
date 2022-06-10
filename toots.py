@@ -1,8 +1,8 @@
 import json
 from os import path
-with open("archive/outbox.json", 'r') as outbox_file:
+with open("./archive/outbox.json", 'r') as outbox_file:
     outbox = json.loads(outbox_file.read())
-with open("archive/actor.json", 'r') as actor_file:
+with open("./archive/actor.json", 'r') as actor_file:
     actor = json.loads(actor_file.read())
 
 statuses = [status['object'] for status in outbox["orderedItems"]]
@@ -62,7 +62,7 @@ outfile.write(
 
 outfile.write("</head><body><main>\
 	<section id='header'>\
-		<img src='/archive/avatar.jpeg'>\
+		<img src='./archive/avatar.jpeg'>\
 		<div id=preferred-name>{0}</div>\
 		<a id=user-name>{1}</a>\
 	</section>".format(actor["preferredUsername"], actor["name"]))
