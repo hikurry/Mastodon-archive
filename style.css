@@ -2,8 +2,15 @@ body{
   font-family: serif;
 }
 main{
+  padding: 15px;
   width: 42em;
   margin: 0 auto;
+}
+
+@media (max-width: 752px){
+main {
+    width: auto !important;
+    }
 }
 
 section{
@@ -40,3 +47,4 @@ a{
   display: block;
   margin: 3em auto;
 }
+
